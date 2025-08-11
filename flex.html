@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <style>
+        @font-face {
+            font-family: 'CookieRun-Regular';
+            src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/CookieRun-Regular.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        .wrapper {
+            display: flex;
+        }
+
+        .box {
+            width: 100px;
+            height: 100px;
+            border: 5px dotted #2aa907;
+            background: #e71ee3;
+            box-shadow: 10px 10px 5px #e1d8d8;
+            text-align: center;
+            margin: 10px;
+            border-radius: 50px;
+            color: rgb(226, 236, 244);
+            line-height: 100px;
+            font-family: 'CookieRun-Regular';
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="box">하나</div>
+        <div class="box">둘</div>
+        <div class="box">셋</div>
+    </div>
+</body>
+
+</html>

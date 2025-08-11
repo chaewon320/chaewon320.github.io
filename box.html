@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>박스모델</title>
+    <style>
+        .box{
+            width:150px;
+            height: 50px;
+            background: #f95151;
+            text-shadow: 3px 3px 5px rgb(183, 243, 63);
+            box-shadow: 10px 10px 5px rgb(178, 178, 181);
+        }
+        #p1{
+           /*border-width:3px;
+            border-style:dotted;
+            border-color: blue;*/
+            border: 3px dotted blue;
+        }
+        #p2{
+            border-left-width: 3px;
+            border-left-style: solid;
+            border-left-color: yellow;
+            background: rgb(210, 209, 209);
+        }
+        #p3{
+            border:3px solid skyblue;
+            border-radius:10px; 
+        }
+        #p4{
+            border:3px solid skyblue;
+            /*border-radius:0px 20px 40px 60px;*/
+            border-radius:0px 20px;
+            background:green;
+        }
+    </style>
+</head>
+<body>
+    <div class ="box">
+        한 주의 시작인 월요일이다. 
+    </div>
+    <p id ="p1">박스모델</p>
+    <p id="p2">박스모델</p>
+    <p id="p3">둥근 모서리 만들기</p>
+    <p id="p4">둥근 모서리 만들기</p>
+</body>
+</html>
